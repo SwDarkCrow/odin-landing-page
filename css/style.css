@@ -2,7 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
 }
 
 .header {
@@ -20,7 +20,41 @@ body {
   font-weight: bold;
 }
 
-a {
+a, .under-text {
   text-decoration: none;
   color: #F9FAF8;
+  font-size: 18px;
 }
+
+.hero {
+  display: flex;
+  color: #F9FAF8;
+  background-color: #1F2937;
+  padding: 100px 150px 100px 200px;
+  gap: 60px;
+  justify-content: space-between;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 300px;
+  justify-content: space-between;
+}
+
+.flex-image {
+  flex: 1 1 300px;
+  height: 261px;
+  aspect-ratio: initial;
+}
+
+.sign-up {
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  margin: 0;
+}
+
