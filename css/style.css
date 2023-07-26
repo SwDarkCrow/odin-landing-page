@@ -9,7 +9,7 @@ body {
   display: flex;
   color: #F9FAF8;
   background-color: #1F2937;
-  padding: 12px 150px 12px 200px;
+  padding: 12px 175px 12px 175px;
   gap: 20px;
   align-items: center;
 }
@@ -32,7 +32,7 @@ a, .under-text {
   display: flex;
   color: #F9FAF8;
   background-color: #1F2937;
-  padding: 100px 150px 100px 200px;
+  padding: 100px 175px 100px 175px;
   gap: 60px;
   justify-content: space-between;
 }
@@ -85,7 +85,7 @@ a, .under-text {
 .content-container {
   display: flex;
   justify-content: center;
-  padding: 35px 150px 70px 200px;
+  padding: 35px 175px 70px 175px;
   gap: 30px;
 }
 
@@ -114,7 +114,7 @@ a, .under-text {
 
 .quote {
   background-color: #E5E7EB;
-  padding: 100px 250px 100px 350px;
+  padding: 100px 300px 100px 300px;
   display: flex;
   flex-direction: column;
 }
@@ -132,7 +132,7 @@ a, .under-text {
 }
 
 .signUp {
-  padding: 100px 150px 100px 200px;
+  padding: 100px 175px 100px 175px;
 }
 
 .sign-popup {
@@ -146,4 +146,13 @@ a, .under-text {
 
 .sign-popup .sign-up {
   border: 2px solid #F9FAF8;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5em;
 }
