@@ -66,9 +66,46 @@ a, .under-text {
 
 .hero-info h1 {
   font-size: 48px;
-  font-weight: extra-bold;
+  font-weight: bolder;
   margin: 0;
   line-height: 1.2;
   margin-bottom: -10px;
 }
 
+.content-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  padding-top: 35px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  padding: 35px 150px 70px 200px;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 200px;
+  gap: 10px;
+}
+
+.card .img-container {
+  display: flex;
+}
+
+.card .img-container img {
+  border-radius: 16px;
+  border: 4px #3882F6 solid; 
+  flex: 0 1 200px;
+}
+
+.card .under-text {
+  color: #1F2937;
+  text-align: center;
+  flex-wrap: wrap;
+}
